@@ -18,7 +18,7 @@
             }
             .a7_heading{
                 left: 100px;
-                top: 20px;
+                top: 18px;
                 color:#4A274F;
                 bottom: 0px;
             }
@@ -56,29 +56,36 @@
                 height: 144px;
                 background-color: #F8EEFA;
             }
-            .a7_prjbtn{
+            .a7_projectbtn{
                 background-color: #442460;
             }
-            .a7_prjbtn:focus{
+            .a7_projectbtn:focus{
                 box-shadow: none;
+            }
+            .a7_text{
+                margin-left: 212px;
+            }
+            .a7_text2{
+                margin-top: -21px;
+                margin-left: 212px;
             }
         </style>
     </head>
     <body>
-        <div class="container-fluid a7_cont_fd a7_tbdr p-0">
+        <div class="container-fluid a7_cont_fd p-0">
             <header>
-                <div class="row m-0 a7_tbdr h-100 ">
-                    <div class="col-2 p-0">
+                <div class="row m-0 h-100 ">
+                    <div class="col-2 p-0 border-end">
                         <a href="#">
                             <img class="ms-3 mt-3" src="./img/logo.svg">
                         </a>
+                        <h5 class="a7_heading position-absolute">NEUROLAB</h5>
                     </div>
                     <div class="col-10 p-0">
                         <form class="float-start">
                             <i class="fas fa-search mt-3 ps-3 position-absolute"></i>
                             <input type="search" class="border-0 mt-2 ms-4 form-control" placeholder="Search or help">
                         </form>
-                        <h6 class="a7_heading position-absolute">NEUROLAB</h6>
                         <nav class="navbar navbar-expand-lg navbar-light float-end">  
                             <a class="navbar-brand" href="#"><i class="far fa-life-ring"></i></a>
                               <ul class="navbar-nav me-auto mb-2 mb-lg-0">
@@ -96,8 +103,8 @@
                     </div>
                 </div>
             </header>
-            <div class="main row h-100 m-0 a7_tbdr">
-                <aside class="col-2 a7_tbdr a7_aside  p-0">
+            <div class="main row h-100 m-0">
+                <aside class="col-2 a7_aside p-0">
                     <div class="accordion-item border-0 rounded-0">
                         <h2 class="accordion-header " id="headingTwo">
                           <button class="accordion-button collapsed a7_lgt_purple rounded-0 a7_btncol a7_btnbrdr" type="button" data-bs-toggle="collapse" data-bs-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
@@ -198,14 +205,12 @@
                       </div>
                 </aside>
                 <section class="col-10 p-0">
-                    <div class="a7_secdiv a7_tbdr m-4">
-                       <p> First time login:</p>
-                        <h5>create your first project &amp;get started </h5>
+                    <div class="a7_secdiv m-4">
+                        <p class="a7_text pt-4">First time login:</p> 
+                        <h5 class="a7_text2">create your first project &amp;get started </h5>
                     </div>
-                    <h4 class="ms-4 mt-2">usability
-                        <button type="button" class="btn text-white btn-lg a7_prjbtn float-end me-4">Create new project</button>
-                    </h4>
-                   
+                    <h4 class="ms-4 mt-2 float-start">usability</h4>
+                    <button type="button" class="btn text-white btn-lg a7_projectbtn float-end me-4">Create new project</button>
                 </section>   
             </div>
         </div>
